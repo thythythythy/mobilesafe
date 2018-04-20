@@ -7,7 +7,6 @@
     </item>
     <item 
         android:drawable="@drawable/btn_green_normal">
-        
     </item>
 
 </selector>

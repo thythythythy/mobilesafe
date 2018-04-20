@@ -72,6 +72,8 @@ public class Setup3Activity extends Activity {
 				finish();
 				//把2用户直接输入的号码进行保存操作
 				SpUtils.writeString(getApplicationContext(), ConstantValue.PHONE_NUMBER, phone);
+				
+				overridePendingTransition(R.anim.next_in_anim, R.anim.next_out_anim);
 			}else {
 				ToastUtil.show(getApplicationContext(), "请输入安全号码");
 			}
@@ -83,5 +85,6 @@ public class Setup3Activity extends Activity {
 					Setup2Activity.class);
 			startActivity(intent);
 			finish();
+			overridePendingTransition(R.anim.pro_in_anim, R.anim.pro_out_anim);
 		}
 }

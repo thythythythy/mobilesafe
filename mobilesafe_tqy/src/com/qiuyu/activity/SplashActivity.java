@@ -1,6 +1,7 @@
 package com.qiuyu.activity;
 
 import java.io.File;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.HttpURLConnection;
@@ -20,10 +21,8 @@ import com.qiuyu.utils.SpUtils;
 import com.qiuyu.utils.StreamUtil;
 import com.qiuyu.utils.ToastUtil;
 
-import android.R.integer;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -34,9 +33,7 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
-import android.view.View;
 import android.view.animation.AlphaAnimation;
-import android.view.animation.Animation;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
